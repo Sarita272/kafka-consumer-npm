@@ -12,7 +12,7 @@ npm install --save kafka-consumer-npm
 ### How to use
 
 ```js
-const kafkaConsumer = require("kafka-consumer"); 
+const kafkaConsumer = require("kafka-consumer-npm"); 
 ```
 ```js
 async function main() {
