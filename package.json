@@ -1,0 +1,30 @@
+{
+  "name": "kafka-consumer-npm",
+  "version": "1.0.7",
+  "description": "This is a basic package to consume messages from kafka topic",
+  "private": false,
+  "main": "consumer.js",
+  "scripts": {
+    "start": "node consumer.js",
+    "dev": "nodemon consumer.js",
+    "test": "echo \"Error: No test Specified\" & exit 1"
+  },
+  "keywords": [
+    "kafka",
+    "consumer",
+    "offset",
+    "autocommit",
+    "kafka-consumer",
+    "kafka-consumer"
+  ],
+  "author": "Sarita Singh",
+  "license": "MIT",
+  "homepage": "https://github.com/Sarita272/kafka-consumer-npm",
+  "dependencies": {
+    "kafkajs": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sarita272/kafka-consumer-npm"
+  } 
+}
